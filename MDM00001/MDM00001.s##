@@ -5140,33 +5140,6 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 </library>
 <library name="regulators">
 <packages>
-<package name="SOT23-DBV">
-<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt; DBV (R-PDSO-G5)&lt;p&gt;
-Source: http://focus.ti.com/lit/ds/symlink/tps77001.pdf</description>
-<wire x1="1.422" y1="0.81" x2="1.422" y2="-0.81" width="0.1524" layer="21"/>
-<wire x1="1.422" y1="-0.81" x2="-1.422" y2="-0.81" width="0.1524" layer="51"/>
-<wire x1="-1.422" y1="-0.81" x2="-1.422" y2="0.81" width="0.1524" layer="21"/>
-<wire x1="-1.422" y1="0.81" x2="1.422" y2="0.81" width="0.1524" layer="51"/>
-<wire x1="-0.522" y1="0.81" x2="0.522" y2="0.81" width="0.1524" layer="21"/>
-<wire x1="-0.428" y1="-0.81" x2="-0.522" y2="-0.81" width="0.1524" layer="21"/>
-<wire x1="0.522" y1="-0.81" x2="0.428" y2="-0.81" width="0.1524" layer="21"/>
-<wire x1="-1.328" y1="-0.81" x2="-1.422" y2="-0.81" width="0.1524" layer="21"/>
-<wire x1="1.422" y1="-0.81" x2="1.328" y2="-0.81" width="0.1524" layer="21"/>
-<wire x1="1.328" y1="0.81" x2="1.422" y2="0.81" width="0.1524" layer="21"/>
-<wire x1="-1.422" y1="0.81" x2="-1.328" y2="0.81" width="0.1524" layer="21"/>
-<smd name="1" x="-0.95" y="-1.3" dx="0.55" dy="1.2" layer="1"/>
-<smd name="2" x="0" y="-1.3" dx="0.55" dy="1.2" layer="1"/>
-<smd name="3" x="0.95" y="-1.3" dx="0.55" dy="1.2" layer="1"/>
-<smd name="4" x="0.95" y="1.3" dx="0.55" dy="1.2" layer="1"/>
-<smd name="5" x="-0.95" y="1.3" dx="0.55" dy="1.2" layer="1"/>
-<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-3.429" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.2" y1="-1.5" x2="-0.7" y2="-0.85" layer="51"/>
-<rectangle x1="-0.25" y1="-1.5" x2="0.25" y2="-0.85" layer="51"/>
-<rectangle x1="0.7" y1="-1.5" x2="1.2" y2="-0.85" layer="51"/>
-<rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
-<rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
-</package>
 <package name="SOT223">
 <description>&lt;b&gt;SOT-223&lt;/b&gt;</description>
 <wire x1="3.2766" y1="1.651" x2="3.2766" y2="-1.651" width="0.2032" layer="21"/>
@@ -5188,22 +5161,32 @@ Source: http://focus.ti.com/lit/ds/symlink/tps77001.pdf</description>
 <rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
 <rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
 </package>
+<package name="SOT23-DBV">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt; DBV (R-PDSO-G5)&lt;p&gt;
+Source: http://focus.ti.com/lit/ds/symlink/tps77001.pdf</description>
+<wire x1="1.5" y1="0.81" x2="1.5" y2="-0.81" width="0.1524" layer="21"/>
+<wire x1="1.422" y1="-0.81" x2="-1.422" y2="-0.81" width="0.1524" layer="51"/>
+<wire x1="-1.5" y1="-0.81" x2="-1.5" y2="0.81" width="0.1524" layer="21"/>
+<wire x1="-1.5" y1="0.81" x2="1.5" y2="0.81" width="0.1524" layer="51"/>
+<wire x1="-0.45" y1="0.81" x2="0.45" y2="0.81" width="0.1524" layer="21"/>
+<wire x1="-1.45" y1="-0.81" x2="-1.5" y2="-0.81" width="0.1524" layer="21"/>
+<wire x1="1.45" y1="0.81" x2="1.5" y2="0.81" width="0.1524" layer="21"/>
+<wire x1="-1.5" y1="0.81" x2="-1.45" y2="0.81" width="0.1524" layer="21"/>
+<smd name="1" x="-0.95" y="-1.3" dx="0.75" dy="1.2" layer="1"/>
+<smd name="2" x="0" y="-1.3" dx="0.75" dy="1.2" layer="1"/>
+<smd name="3" x="0.95" y="-1.3" dx="0.75" dy="1.2" layer="1"/>
+<smd name="4" x="0.95" y="1.3" dx="0.75" dy="1.2" layer="1"/>
+<smd name="5" x="-0.95" y="1.3" dx="0.75" dy="1.2" layer="1"/>
+<text x="2.415" y="-1.685" size="0.6096" layer="25" rot="R90">&gt;NAME</text>
+<rectangle x1="-1.2" y1="-1.5" x2="-0.7" y2="-0.85" layer="51"/>
+<rectangle x1="-0.25" y1="-1.5" x2="0.25" y2="-0.85" layer="51"/>
+<rectangle x1="0.7" y1="-1.5" x2="1.2" y2="-0.85" layer="51"/>
+<rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
+<rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
+<wire x1="1.45" y1="-0.81" x2="1.5" y2="-0.81" width="0.1524" layer="21"/>
+</package>
 </packages>
 <symbols>
-<symbol name="TPS73633DBVR">
-<description>Symbol for TPS73633DBVR LDO voltage regulator</description>
-<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-10.16" x2="10.16" y2="7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
-<pin name="IN" x="-15.24" y="5.08" length="middle"/>
-<pin name="EN" x="-15.24" y="-2.54" length="middle"/>
-<pin name="OUT" x="15.24" y="5.08" length="middle" rot="R180"/>
-<pin name="NR" x="15.24" y="-2.54" length="middle" rot="R180"/>
-<pin name="GND" x="0" y="-15.24" length="middle" rot="R90"/>
-<text x="-10.16" y="12.7" size="1.778" layer="94">&gt;Name</text>
-<text x="-10.16" y="9.144" size="1.778" layer="94">&gt;Value</text>
-</symbol>
 <symbol name="NCP1117">
 <wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
@@ -5216,29 +5199,22 @@ Source: http://focus.ti.com/lit/ds/symlink/tps77001.pdf</description>
 <pin name="TAB" x="5.08" y="-10.16" length="short" rot="R90"/>
 <text x="-10.16" y="8.636" size="1.778" layer="94">&gt;Value</text>
 </symbol>
+<symbol name="LP2985">
+<description>LP2985, LDO regulator</description>
+<wire x1="12.7" y1="5.08" x2="-12.7" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="5.08" x2="-12.7" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-10.16" x2="12.7" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-10.16" x2="12.7" y2="5.08" width="0.254" layer="94"/>
+<pin name="IN" x="-15.24" y="2.54" visible="pin" length="short"/>
+<pin name="OUT" x="15.24" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="ON/!OFF" x="-15.24" y="-2.54" visible="pin" length="short"/>
+<pin name="BYPASS" x="15.24" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="GND" x="0" y="-12.7" visible="pin" length="short" rot="R90"/>
+<text x="-12.7" y="8.636" size="1.778" layer="94">&gt;Name</text>
+<text x="-12.7" y="6.35" size="1.778" layer="94">&gt;Value</text>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="TPS73633DBVR" prefix="U">
-<gates>
-<gate name="U1" symbol="TPS73633DBVR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT23-DBV">
-<connects>
-<connect gate="U1" pin="EN" pad="3"/>
-<connect gate="U1" pin="GND" pad="2"/>
-<connect gate="U1" pin="IN" pad="1"/>
-<connect gate="U1" pin="NR" pad="4"/>
-<connect gate="U1" pin="OUT" pad="5"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY#" value="296-27064-1-ND"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="NCP1117ST50T3G" prefix="U">
 <description>NCP1117 5V, 1.0 A Low-Dropout Positive Fixed and Adjustable Voltage Regulator &lt;a href = 'http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF'&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -5255,6 +5231,28 @@ Source: http://focus.ti.com/lit/ds/symlink/tps77001.pdf</description>
 <technologies>
 <technology name="">
 <attribute name="DIGIKEYPART#" value="NCP1117ST50T3GOSCT-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LP2985-33DBVR" prefix="U">
+<description>LP2985-33DBVR, 3.3V LDO Regulator. See datasheet for more information &lt;a href='http://www.ti.com/lit/ds/symlink/lp2985-18.pdf'&gt;datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="U1" symbol="LP2985" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-DBV">
+<connects>
+<connect gate="U1" pin="BYPASS" pad="4"/>
+<connect gate="U1" pin="GND" pad="2"/>
+<connect gate="U1" pin="IN" pad="1"/>
+<connect gate="U1" pin="ON/!OFF" pad="3"/>
+<connect gate="U1" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEYPART#" value="296-18476-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5746,9 +5744,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="F1" library="SparkFun-PowerIC" deviceset="PTC" device="SMD"/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U3" library="regulators" deviceset="TPS73633DBVR" device=""/>
 <part name="C6" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="0.01uF"/>
-<part name="C9" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1.0uF"/>
+<part name="C9" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="4.7uF"/>
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -5846,10 +5843,18 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="R12" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1k"/>
 <part name="C4" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="U2" library="regulators" deviceset="LP2985-33DBVR" device=""/>
+<part name="C2" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="4.7uF"/>
+<part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="C5" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
+<text x="119.38" y="-81.28" size="2.54" layer="91">4 CH DC Motor Driver
+Microcontroller Board</text>
+<text x="177.546" y="-82.55" size="1.778" layer="91">1 of 2</text>
+<text x="177.292" y="-75.438" size="1.778" layer="91">0</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="50.8" y="22.86"/>
@@ -5876,10 +5881,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="SUPPLY6" gate="G$1" x="43.18" y="101.6"/>
 <instance part="F1" gate="G$1" x="-55.88" y="104.14"/>
 <instance part="GND7" gate="1" x="-20.32" y="58.42"/>
-<instance part="U3" gate="U1" x="137.16" y="99.06"/>
 <instance part="C6" gate="G$1" x="162.56" y="91.44"/>
 <instance part="C9" gate="G$1" x="109.22" y="96.52"/>
-<instance part="SUPPLY7" gate="G$1" x="162.56" y="111.76"/>
+<instance part="SUPPLY7" gate="G$1" x="172.72" y="111.76"/>
 <instance part="GND8" gate="1" x="162.56" y="78.74"/>
 <instance part="GND9" gate="1" x="137.16" y="78.74"/>
 <instance part="GND10" gate="1" x="-48.26" y="5.08"/>
@@ -5919,6 +5923,10 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="R12" gate="G$1" x="22.86" y="109.22" rot="R270"/>
 <instance part="C4" gate="G$1" x="-30.48" y="78.74"/>
 <instance part="SUPPLY3" gate="G$1" x="-20.32" y="106.68"/>
+<instance part="U2" gate="U1" x="137.16" y="104.14"/>
+<instance part="C2" gate="G$1" x="172.72" y="99.06"/>
+<instance part="GND5" gate="1" x="172.72" y="78.74"/>
+<instance part="C5" gate="G$1" x="63.5" y="22.86" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -5951,9 +5959,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="GND8" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U3" gate="U1" pin="GND"/>
-<wire x1="137.16" y1="83.82" x2="137.16" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="1" pin="GND"/>
+<pinref part="U2" gate="U1" pin="GND"/>
+<wire x1="137.16" y1="91.44" x2="137.16" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
@@ -6015,6 +6023,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="GND38" gate="1" pin="GND"/>
 <wire x1="73.66" y1="22.86" x2="68.58" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="22.86" x2="68.58" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="2"/>
+<wire x1="66.04" y1="22.86" x2="68.58" y2="22.86" width="0.1524" layer="91"/>
+<junction x="68.58" y="22.86"/>
 </segment>
 <segment>
 <pinref part="JP2" gate="G$1" pin="GND"/>
@@ -6048,6 +6059,11 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="-30.48" y1="76.2" x2="-30.48" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="-30.48" y1="73.66" x2="-20.32" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="GND5" gate="1" pin="GND"/>
+<wire x1="172.72" y1="96.52" x2="172.72" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -6122,13 +6138,18 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="5.08" y1="-12.7" x2="5.08" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U3" gate="U1" pin="IN"/>
 <pinref part="C9" gate="G$1" pin="1"/>
-<wire x1="121.92" y1="104.14" x2="109.22" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="104.14" x2="109.22" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="SUPPLY11" gate="G$1" pin="5V"/>
-<wire x1="109.22" y1="104.14" x2="109.22" y2="111.76" width="0.1524" layer="91"/>
-<junction x="109.22" y="104.14"/>
+<wire x1="109.22" y1="101.6" x2="109.22" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="U2" gate="U1" pin="IN"/>
+<wire x1="109.22" y1="106.68" x2="109.22" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="106.68" x2="119.38" y2="106.68" width="0.1524" layer="91"/>
+<junction x="109.22" y="106.68"/>
+<pinref part="U2" gate="U1" pin="ON/!OFF"/>
+<wire x1="119.38" y1="106.68" x2="109.22" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="101.6" x2="119.38" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="101.6" x2="119.38" y2="106.68" width="0.1524" layer="91"/>
+<junction x="119.38" y="106.68"/>
 </segment>
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
@@ -6190,16 +6211,19 @@ We've spent an enormous amount of time creating and checking these footprints an
 </net>
 <net name="3.3V" class="0">
 <segment>
-<pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
-<wire x1="162.56" y1="111.76" x2="162.56" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="U3" gate="U1" pin="OUT"/>
-<wire x1="152.4" y1="104.14" x2="162.56" y2="104.14" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="U$3" gate="G$1" pin="-IN1"/>
 <wire x1="-53.34" y1="-22.86" x2="-60.96" y2="-22.86" width="0.1524" layer="91"/>
 <pinref part="SUPPLY9" gate="G$1" pin="3.3V"/>
 <wire x1="-60.96" y1="-22.86" x2="-60.96" y2="-15.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U2" gate="U1" pin="OUT"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="152.4" y1="106.68" x2="172.72" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="106.68" x2="172.72" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
+<wire x1="172.72" y1="111.76" x2="172.72" y2="106.68" width="0.1524" layer="91"/>
+<junction x="172.72" y="106.68"/>
 </segment>
 </net>
 <net name="RXLED" class="0">
@@ -6239,13 +6263,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="JP2" gate="G$1" pin="VBUS"/>
 <wire x1="-60.96" y1="104.14" x2="-78.74" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="F1" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="U3" gate="U1" pin="NR"/>
-<pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="152.4" y1="96.52" x2="162.56" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -6523,11 +6540,28 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="20.32" y1="86.36" x2="27.94" y2="86.36" width="0.1524" layer="91"/>
 <label x="20.32" y="86.36" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="58.42" y1="22.86" x2="53.34" y2="22.86" width="0.1524" layer="91"/>
+<label x="53.34" y="22.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="U2" gate="U1" pin="BYPASS"/>
+<pinref part="C6" gate="G$1" pin="1"/>
+<wire x1="152.4" y1="101.6" x2="162.56" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="101.6" x2="162.56" y2="96.52" width="0.1524" layer="91"/>
+</segment>
 </net>
 </nets>
 </sheet>
 <sheet>
 <plain>
+<text x="96.52" y="-48.26" size="2.54" layer="91">4 CH DC Motor Driver
+Microcontroller Board</text>
+<text x="152.4" y="-50.8" size="1.778" layer="91">2 of 2</text>
+<text x="152.4" y="-43.18" size="1.778" layer="91">0</text>
 </plain>
 <instances>
 <instance part="U$2" gate="G$1" x="25.4" y="55.88"/>
@@ -7249,4 +7283,10 @@ We've spent an enormous amount of time creating and checking these footprints an
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
