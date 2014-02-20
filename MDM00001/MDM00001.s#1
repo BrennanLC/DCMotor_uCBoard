@@ -3393,14 +3393,14 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <packages>
 <package name="8-WSON">
 <description>WSON-8 Package</description>
-<smd name="P$1" x="-0.75" y="0.95" dx="0.64" dy="0.42" layer="1" rot="R90"/>
-<smd name="P$2" x="-0.25" y="0.95" dx="0.64" dy="0.42" layer="1" rot="R90"/>
-<smd name="P$3" x="0.25" y="0.95" dx="0.64" dy="0.42" layer="1" rot="R90"/>
-<smd name="P$4" x="0.75" y="0.95" dx="0.64" dy="0.42" layer="1" rot="R90"/>
-<smd name="P$5" x="0.75" y="-0.95" dx="0.64" dy="0.42" layer="1" rot="R90"/>
-<smd name="P$6" x="0.25" y="-0.95" dx="0.64" dy="0.42" layer="1" rot="R90"/>
-<smd name="P$7" x="-0.25" y="-0.95" dx="0.64" dy="0.42" layer="1" rot="R90"/>
-<smd name="P$8" x="-0.75" y="-0.95" dx="0.64" dy="0.42" layer="1" rot="R90"/>
+<smd name="P$1" x="-0.75" y="0.95" dx="0.64" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$2" x="-0.25" y="0.95" dx="0.64" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$3" x="0.25" y="0.95" dx="0.64" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$4" x="0.75" y="0.95" dx="0.64" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$5" x="0.75" y="-0.95" dx="0.64" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$6" x="0.25" y="-0.95" dx="0.64" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$7" x="-0.25" y="-0.95" dx="0.64" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$8" x="-0.75" y="-0.95" dx="0.64" dy="0.3" layer="1" rot="R90"/>
 <smd name="P$9" x="0" y="0" dx="0.9" dy="1.6" layer="1" rot="R90"/>
 <text x="-1.27" y="-1.27" size="0.4064" layer="21" rot="R90">&gt;Name</text>
 <text x="1.524" y="-1.27" size="0.4064" layer="21" rot="R90">&gt;Value</text>
@@ -3868,13 +3868,11 @@ We've spent an enormous amount of time creating and checking these footprints an
 </packages>
 <symbols>
 <symbol name="4011_PWR">
-<description>4011 Gate with power leads</description>
-<wire x1="-2.54" y1="3.81" x2="-2.54" y2="-4.064" width="0.254" layer="94"/>
+<description>NAND Gate with power leads</description>
 <wire x1="-2.54" y1="-4.064" x2="0" y2="-4.064" width="0.254" layer="94"/>
 <wire x1="0" y1="-4.064" x2="3.556" y2="-4.064" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="3.81" x2="0" y2="3.81" width="0.254" layer="94"/>
+<wire x1="0" y1="3.81" x2="-2.54" y2="3.81" width="0.254" layer="94"/>
 <wire x1="0" y1="3.81" x2="3.556" y2="3.81" width="0.254" layer="94"/>
-<wire x1="3.556" y1="3.81" x2="3.556" y2="-4.064" width="0.254" layer="94" curve="-180"/>
 <pin name="O1" x="12.7" y="0" visible="off" length="middle" direction="out" function="dot" rot="R180"/>
 <pin name="I0" x="-5.08" y="2.54" visible="off" length="short" direction="in" swaplevel="1"/>
 <pin name="I1" x="-5.08" y="-2.54" visible="off" length="short" direction="in" swaplevel="1"/>
@@ -3884,6 +3882,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <text x="1.524" y="-6.35" size="1.778" layer="94">&gt;Value</text>
 <wire x1="0" y1="3.81" x2="0" y2="5.08" width="0.254" layer="94"/>
 <wire x1="0" y1="-5.08" x2="0" y2="-4.064" width="0.254" layer="94"/>
+<wire x1="3.556" y1="3.81" x2="3.556" y2="-4.064" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="3.81" x2="-2.54" y2="-4.064" width="0.254" layer="94"/>
 </symbol>
 <symbol name="4011">
 <description>4011 Gate B</description>

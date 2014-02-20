@@ -4119,10 +4119,11 @@ We've spent an enormous amount of time creating and checking these footprints an
 <sheets>
 <sheet>
 <plain>
-<text x="119.38" y="-81.28" size="2.54" layer="91">4 CH DC Motor Driver
+<text x="119.38" y="-81.28" size="2.54" layer="91">2 CH DC Motor Driver
 Microcontroller Board</text>
 <text x="177.546" y="-82.55" size="1.778" layer="91">1 of 2</text>
 <text x="177.292" y="-75.438" size="1.778" layer="91">0</text>
+<text x="71.12" y="-81.28" size="1.778" layer="91">Designed by: B. Carrizales</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="50.8" y="22.86"/>
@@ -4759,10 +4760,11 @@ Microcontroller Board</text>
 </sheet>
 <sheet>
 <plain>
-<text x="96.52" y="-48.26" size="2.54" layer="91">4 CH DC Motor Driver
+<text x="96.52" y="-48.26" size="2.54" layer="91">2 CH DC Motor Driver
 Microcontroller Board</text>
 <text x="152.4" y="-50.8" size="1.778" layer="91">2 of 2</text>
 <text x="152.4" y="-43.18" size="1.778" layer="91">0</text>
+<text x="45.72" y="-45.72" size="1.778" layer="91">Designed by: B. Carrizales</text>
 </plain>
 <instances>
 <instance part="U$2" gate="G$1" x="25.4" y="55.88"/>
